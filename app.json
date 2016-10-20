@@ -1,0 +1,17 @@
+{
+  "name": "TriviaBot",
+  "description": "TriviaBot is a trivia spouting bot for slack.",
+  "repository": "https://github.com/ElementCy/triviabot",
+  "success_url": "/",
+  "env": {
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "SLACK_TOKEN": {
+      "description": "Slack bot RTM API token",
+      "required": false
+    },
+    "NODE_ENV": "staging"
+  },
+  "image": "heroku/nodejs"
+}

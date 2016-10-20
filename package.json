@@ -1,0 +1,39 @@
+{
+  "name": "triviabot",
+  "description": "TriviaBot is a trivia spouting bot for slack.",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./src",
+    "test": "standard"
+  },
+  "author": {
+    "email": "cyoung@eat-studios.com",
+    "name": "Casey Young",
+    "url": "https://twitter.com/ElementCy"
+  },
+  "bugs": {
+    "url": "https://github.com/ElementCy"
+  },
+  "dependencies": {
+    "request": "^2.65.0",
+    "body-parser": "^1.15.0",
+    "botkit": "0.0.7",
+    "dotenv": "^2.0.0",
+    "express": "^4.13.4",
+    "express-http-proxy": "^0.6.0",
+    "github-trending": "^1.3.1",
+    "lodash": "^4.6.1",
+    "slack": "^6.1.0"
+  },
+  "keywords": [
+    "slack",
+    "slack-bot",
+    "bot",
+    "heroku"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": "5.7.1"
+  }
+}
